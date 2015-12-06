@@ -1,0 +1,26 @@
+﻿Build started 12/6/2015 12:34:43 AM.
+     1>Project "C:\Users\LENOVO\Documents\Visual Studio 2010\Projects\Age Estimator\Age Estimator\Age Estimator.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\Age Estimator.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:\OPENCV\opencv\build\include /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Shape_Model.cpp
+         Shape_Model.cpp
+     1>Shape_Model.cpp(103): warning C4172: returning address of local variable or temporary
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\LENOVO\Documents\Visual Studio 2010\Projects\Age Estimator\Release\Age Estimator.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:\OPENCV\opencv\build\x86\vc10\lib opencv_core2411.lib opencv_features2d2411.lib opencv_flann2411.lib opencv_calib3d2411.lib opencv_gpu2411.lib opencv_highgui2411.lib opencv_imgproc2411.lib opencv_legacy2411.lib opencv_ml2411.lib opencv_objdetect2411.lib opencv_ts2411.lib opencv_video2411.lib opencv_nonfree2411.lib opencv_contrib2411.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\Age Estimator.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\LENOVO\Documents\Visual Studio 2010\Projects\Age Estimator\Release\Age Estimator.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\LENOVO\Documents\Visual Studio 2010\Projects\Age Estimator\Release\Age Estimator.lib" /MACHINE:X86 Release\main.obj
+         Release\Shape_Model.obj
+         Release\Shape_Model_old.obj
+         Release\Texture_Model.obj
+         Generating code
+         Finished generating code
+         Age Estimator.vcxproj -> C:\Users\LENOVO\Documents\Visual Studio 2010\Projects\Age Estimator\Release\Age Estimator.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\LENOVO\Documents\Visual Studio 2010\Projects\Age Estimator\Release\Age Estimator.exe;#1" /manifest "Release\Age Estimator.exe.intermediate.manifest"
+       FinalizeBuildStatus:
+         Deleting file "Release\Age Estimator.unsuccessfulbuild".
+         Touching "Release\Age Estimator.lastbuildstate".
+     1>Done Building Project "C:\Users\LENOVO\Documents\Visual Studio 2010\Projects\Age Estimator\Age Estimator\Age Estimator.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.56
